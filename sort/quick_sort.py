@@ -7,6 +7,15 @@ from typing import List
 
 
 def quick_sort(a: List[int]) -> List[int]:
+    """
+    冒泡排序
+    时间复杂度：最好n，最差n2，平均n2
+    空间复杂度：n
+    原地排序，稳定排序
+    :param nums:
+    :return:
+    """
+
     # _quick_sort1(a, 0, len(a)-1)
     _quick_sort2(a, 0, len(a) - 1)
 

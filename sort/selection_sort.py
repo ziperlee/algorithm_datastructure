@@ -7,6 +7,15 @@ from typing import List
 
 
 def selection_sort(nums: List[int]) -> List[int]:
+    """
+    冒泡排序
+    时间复杂度：最好n，最差n2，平均n2
+    空间复杂度：n
+    原地排序，稳定排序
+    :param nums:
+    :return:
+    """
+
     length = len(nums)
     for i in range(length - 1):
         min = i
